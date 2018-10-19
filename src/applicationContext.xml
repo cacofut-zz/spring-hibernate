@@ -12,18 +12,14 @@
     
     <!-- define the dependency -->
     <bean id="myFortuneService"
-    		class="com.luv2code.springdemo.HappyFortuneService">
+    		class="br.com.salao.HappyFortuneService">
     	</bean>
     
  	<bean id="myCoach"
- 		class="com.luv2code.springdemo.TrackCoach">	 		
+            class="br.com.salao.TennisCoach">	 		
  	</bean>
 
-    <!--
-    <bean id="myCoach"
-        class="com.luv2code.springdemo.BaseballCoach">         
-    </bean>
-    -->
+
 
 </beans>
 
