@@ -12,4 +12,6 @@ package br.com.salao;
 public interface Coach {
     
     public String getDailyWork();
+    
+    public String getFortune();
 }

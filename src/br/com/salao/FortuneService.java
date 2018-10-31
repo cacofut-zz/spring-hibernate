@@ -9,15 +9,7 @@ package br.com.salao;
  *
  * @author cristiano
  */
-public class HappyFortuneService implements FortuneService{
-
-    @Override
-    public String getFortune() {
-        return "Hoje é seu dia de sorte feliz";
-    }
-
-
+public interface FortuneService {
     
-    
-    
+    public String getFortune();
 }

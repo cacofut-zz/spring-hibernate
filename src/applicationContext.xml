@@ -11,13 +11,11 @@
     <!-- Define your beans here -->
     
     <!-- define the dependency -->
-    <bean id="myFortuneService"
-    		class="br.com.salao.HappyFortuneService">
-    	</bean>
+    <bean id="myFortuneService" class="br.com.salao.HappyFortuneService"></bean>
     
- 	<bean id="myCoach"
-            class="br.com.salao.TennisCoach">	 		
- 	</bean>
+    <bean id="myCoach" class="br.com.salao.TennisCoach">	 		
+        <property name="fortuneService" ref="myFortuneService" ></property>
+    </bean>
 
 
 
