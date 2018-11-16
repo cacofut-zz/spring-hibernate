@@ -17,7 +17,11 @@
         <property name="fortuneService" ref="myFortuneService" ></property>
     </bean>
 
-
+    <bean id="myCrickedCoah" class="br.com.salao.CrickedCoach">
+        <property name="fortuneService" ref="myFortuneService"></property>
+        <property name="email" value="cacofut@hotmail.com"></property>
+        <property name="telefone" value="991874268"></property>
+    </bean>
 
 </beans>
 
