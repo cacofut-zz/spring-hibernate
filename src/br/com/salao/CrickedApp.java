@@ -25,6 +25,7 @@ public class CrickedApp {
         // chamar algum método
         System.out.println("Email: " + crickedCoach.getEmail());
         System.out.println("Telefone: " + crickedCoach.getTelefone());
+        System.out.println("Fortuna: " + crickedCoach.getFortune());
         // fechar o contexto
         context.close();
     }
