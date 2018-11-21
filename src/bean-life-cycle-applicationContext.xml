@@ -15,7 +15,9 @@
     <!-- define the dependency -->
     <bean id="myFortuneService" class="br.com.salao.HappyFortuneService"></bean>
 
-    <bean id="myCoach" class="br.com.salao.TennisCoach" scope="prototype">	 		
+    <bean id="myCoach" class="br.com.salao.TennisCoach" 
+          init-method="initTennisCoach" 
+          destroy-method="destroyTennisCoach">	 		
         <property name="fortuneService" ref="myFortuneService"></property>
     </bean>
 

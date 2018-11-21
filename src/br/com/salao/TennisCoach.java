@@ -32,6 +32,12 @@ public class TennisCoach implements Coach{
         System.out.println("método setter TennisCoach");
     }
     
+    public void initTennisCoach(){
+        System.out.println("Iniciando Bean " + this.getClass().getName());
+    }
     
+    public void destroyTennisCoach(){
+        System.out.println("Destruindo Bean " + this.getClass().getName());
+    }
     
 }
